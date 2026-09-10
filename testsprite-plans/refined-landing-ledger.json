@@ -1,0 +1,16 @@
+{
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Navigate to the homepage"
+    },
+    {
+      "type": "action",
+      "description": "Click the Public Impact Ledger button in the hero section"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the Cryptographic Audit Trail header and SAKSHI Honest Impact Ledger title are visible with block records"
+    }
+  ]
+}

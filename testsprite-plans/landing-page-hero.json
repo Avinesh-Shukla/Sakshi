@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.10.0/schemas/plan.schema.json",
+  "projectId": "e2dd64e4-1bc0-4814-8977-04045e09c49c",
+  "type": "frontend",
+  "name": "Landing page displays SAKSHI honest impact headline and public ledger link",
+  "description": "The public landing page displays the honest impact headline and the Public Impact Ledger button navigates to the cryptographic audit ledger.",
+  "priority": "p1",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Navigate to the homepage"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the headline containing \"Recycling That’s Actually Honest\" is visible on the page"
+    },
+    {
+      "type": "action",
+      "description": "Click the \"Public Impact Ledger\" button in the hero section"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the cryptographic audit ledger view is displayed with verifiable pickup transactions"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.10.0/schemas/plan.schema.json",
+  "projectId": "e2dd64e4-1bc0-4814-8977-04045e09c49c",
+  "type": "frontend",
+  "name": "Citizen portal sign in navigates to Generator Dashboard",
+  "description": "Clicking sign in from the landing page and logging in as a generator navigates to the Generator Dashboard.",
+  "priority": "p0",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Navigate to the homepage"
+    },
+    {
+      "type": "action",
+      "description": "Click the \"Sign In / Enter Portal\" button in the hero section"
+    },
+    {
+      "type": "action",
+      "description": "Click the instant login card for Aarav Sharma"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the Generator Dashboard displays the resident name \"Aarav Sharma\" and tier progress"
+    }
+  ]
+}

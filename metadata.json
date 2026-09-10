@@ -1,0 +1,6 @@
+{
+  "name": "SAKSHI — Honest Impact Circular Ledger",
+  "description": "A waste-to-resource circular economy platform connecting waste generators with recyclers, verifiable pickup proof, transparent impact ledger, and circularity credits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

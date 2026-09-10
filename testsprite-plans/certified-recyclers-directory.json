@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TestSprite/testsprite-cli/v0.10.0/schemas/plan.schema.json",
+  "projectId": "e2dd64e4-1bc0-4814-8977-04045e09c49c",
+  "type": "frontend",
+  "name": "Certified facilities button navigates to audited recycler directory",
+  "description": "From the landing page, clicking Certified Facilities opens the directory of state pollution board licensed recyclers.",
+  "priority": "p1",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Navigate to the homepage"
+    },
+    {
+      "type": "action",
+      "description": "Click the \"Certified Facilities\" button in the hero section"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the directory displays certified recyclers and CPCB or SPCB license details"
+    }
+  ]
+}
