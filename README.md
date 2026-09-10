@@ -16,7 +16,7 @@
 
 ---
 
-## 🌍 About SAKSHI
+##  About SAKSHI
 
 In waste management systems across urban India, the most common citizen doubt is: *"Does my segregated waste actually get recycled, or does it end up in a landfill?"*
 
@@ -24,24 +24,24 @@ In waste management systems across urban India, the most common citizen doubt is
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 1. 🏡 Waste Generator Portal
+### 1.  Waste Generator Portal
 - **Doorstep EV Pickup Scheduling**: Schedule collections for segregated waste streams (paper, rigid plastics, e-waste, metals, compostables).
 - **Driver Dispatch & OTP Verification**: Live tracking of zero-emission EV fleets with 4-digit mutual handoff authentication.
 - **Circularity Credits & Tier Progression**: Earn credits based on audited weight to unlock rewards (Silver, Gold, Platinum tiers).
 
-### 2. 🏭 Certified Recycler Console
+### 2.  Certified Recycler Console
 - **Weighbridge & Tare Scale Verification**: Submit gross, tare, and net weights with calibrated digital scale serial numbers.
 - **Regulatory Compliance**: Integrated verification of State Pollution Control Board (SPCB) and CPCB Extended Producer Responsibility (EPR) licenses.
 - **Facility Dispatch Management**: Optimize regional collection clusters (Noida/Delhi NCR, Bengaluru, Mumbai, Pune, Hyderabad, etc.).
 
-### 3. 🛡️ Cryptographic Impact Ledger
+### 3.  Cryptographic Impact Ledger
 - **Verifiable Block Receipts**: Each completed pickup is sealed into an append-only hash chain with immutable SHA-256 signatures, GPS coordinates, and supervisor digital PKI timestamps.
 - **Carbon & Water Offset Metrics**: Instant calculation of environmental dividends (e.g., kg of CO₂ diverted, liters of water conserved).
 - **Public Audit Explorer**: Searchable registry by Block #, Pickup ID, or material stream without requiring cryptocurrency tokens or gas fees.
 
-### 4. 🛍️ Eco Marketplace & Community
+### 4.  Eco Marketplace & Community
 - **Circularity Rewards**: Redeem earned credits for 100% recycled cotton tote bags, upcycled notebooks, and eco-planters.
 - **Leaderboards & Badges**: Celebrate top-contributing resident champions across national and municipal sectors.
 - **Multilingual Support**: Available in 6 regional languages (English, Hindi, Bengali, Tamil, Kannada, Telugu).
@@ -60,7 +60,7 @@ In waste management systems across urban India, the most common citizen doubt is
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Node.js** 20.19+, 22.13+, or 24+
@@ -94,7 +94,7 @@ In waste management systems across urban India, the most common citizen doubt is
 
 ---
 
-## 🧪 TestSprite Testing & Verification
+##  TestSprite Testing & Verification
 
 This project integrates the **TestSprite CLI** agentic verification layer to ensure zero regressions and robust client-side behavior across authentication and ledger auditing flows.
 
@@ -121,7 +121,7 @@ npx testsprite test run --all --project <projectId> --wait
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Sakshi/
@@ -145,6 +145,6 @@ Sakshi/
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the **Apache 2.0 License**. See `LICENSE` for more information.
